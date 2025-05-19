@@ -1,0 +1,6 @@
+@TT12052025_ManagedIdentityTest_HostAddress = http://localhost:5130
+
+GET {{TT12052025_ManagedIdentityTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
