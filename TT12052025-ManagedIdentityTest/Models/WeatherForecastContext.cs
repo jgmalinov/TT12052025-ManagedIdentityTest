@@ -13,7 +13,7 @@ namespace TT12052025_ManagedIdentityTest.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(_config.GetConnectionString("WeatherForecastDb"));
+            optionsBuilder.UseSqlServer(_config.GetConnectionString("AZURE_SQL_CONNECTIONSTRING"));
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
